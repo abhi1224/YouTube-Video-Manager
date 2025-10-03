@@ -18,7 +18,9 @@ def list_videos(videos):
 def add_video(videos):
     name = input("Enter video name: ")
     time = input("Enter video time: ")
-    videos.append({"name": name, "time": time})
+    url = input("Enter video URL: ")
+    description = input("Enter video description: ")
+    videos.append({"name": name, "time": time, "url": url, "description": description})
     save_data_helper(videos)
 
 def update_video(videos):
