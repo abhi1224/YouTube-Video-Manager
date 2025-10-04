@@ -82,6 +82,7 @@ def main():
                 break
             case _:
                 print("Invalid choice. Please try again.")
+    conn.close()
 
 if __name__ == "__main__":
     main()

@@ -24,7 +24,7 @@ cd youtube_manager
 
 ### 2. 👩‍💻 Run the Program
  ```
- python main.py
+ python youtube_manager.py
 ```
 ### 3. 📖 Example Usage
 ``` 
